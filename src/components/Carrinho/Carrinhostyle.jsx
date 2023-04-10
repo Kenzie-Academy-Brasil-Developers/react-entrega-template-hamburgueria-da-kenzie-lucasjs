@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Carrinhostyle = styled.li`
   width: 100%;
-  height: 5rem;
+  height: 6rem;
   position: relative;
 
   display: flex;
 
   figure {
-    width: 80px;
+    width: 83px;
     height: 100%;
     margin-left: 10px;
 
@@ -23,9 +23,9 @@ export const Carrinhostyle = styled.li`
   div {
     width: 100px;
     align-self: center;
-    margin-left: 20px;
+    margin-left: 18px;
     h2 {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       font-weight: 700;
       line-height: 18px;
     }
@@ -44,7 +44,7 @@ export const Carrinhostyle = styled.li`
 
     position: absolute;
 
-    top: 30px;
+    top: 34px;
     right: 10px;
 
     cursor: pointer;
@@ -66,16 +66,16 @@ export const Carrinhostyle = styled.li`
 
   @media (min-width: 500px) {
     div {
-      width: 60%;
+      width: 58%;
       display: flex;
       flex-direction: column;
       align-items: center;
       h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 700;
       }
       p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 400;
       }
     }
@@ -86,10 +86,10 @@ export const Carrinhostyle = styled.li`
       align-items: flex-start;
       width: 80px;
       h2 {
-        font-size: 0.9rem;
+        font-size: 1rem;
       }
       p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
       }
     }
   }

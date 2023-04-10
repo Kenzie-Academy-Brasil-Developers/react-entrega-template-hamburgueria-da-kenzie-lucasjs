@@ -4,12 +4,12 @@ export const MainStyles = styled.main`
   width: 100%;
   font-family: "Inter", sans-serif;
 
-  margin-top: 40px;
+  margin-top: 43px;
 
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 23px;
 
   .container-Principal-Do-Header{
     width: 91%;
@@ -28,7 +28,6 @@ export const MainStyles = styled.main`
       max-width: 100%;
 
       span {
-        text-transform: capitalize;
         max-width: 100%;
         display: flex;
         align-self: end;
@@ -42,7 +41,7 @@ export const MainStyles = styled.main`
     }
 
     .botao-Limpar-Do-Produto {
-      margin-left: 20px;
+      margin-left: 23px;
 
       display: flex;
       align-items: center;
@@ -54,7 +53,7 @@ export const MainStyles = styled.main`
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 21px;
 
     .sectionProdutos {
       width: 100%;
@@ -62,10 +61,10 @@ export const MainStyles = styled.main`
 
       ul {
         display: flex;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-left: 23px;
+        margin-top: 24px;
         align-self: center;
-        gap: 20px;
+        gap: 22px;
       
       }
 

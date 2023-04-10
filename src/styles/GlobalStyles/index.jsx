@@ -11,11 +11,11 @@ export const GlobalStyle = createGlobalStyle`
     --grey-3: #c6c6c6a9;
     --grey-4: #f4f4f4;
 
-    --heading-3: 1.125rem;
-    --heading-4: 0.875rem;
+    --heading-3: 1.129rem;
+    --heading-4: 0.880rem;
     --headline: 1rem;
-    --body: 0.875rem;
-    --caption: 0.75rem;
+    --body: 0.870rem;
+    --caption: 0.90rem;
 
 
   }

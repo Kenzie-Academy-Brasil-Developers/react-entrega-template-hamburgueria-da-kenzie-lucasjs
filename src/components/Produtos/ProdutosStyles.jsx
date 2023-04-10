@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ProdutosStyles = styled.li`
-  min-width: 250px;
-  height: 346px;
+  min-width: 251px;
+  height: 344px;
   max-width: 100%;
 
   display: flex;
@@ -14,7 +14,7 @@ export const ProdutosStyles = styled.li`
 
   figure {
     width: 100%;
-    height: 150px;
+    height: 153px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +29,8 @@ export const ProdutosStyles = styled.li`
   }
 
   div {
-    margin-left: 8px;
-    width: 200px;
+    margin-left: 9px;
+    width: 206px;
 
     h2 {
       font-size: 18px;
@@ -47,16 +47,10 @@ export const ProdutosStyles = styled.li`
     }
   }
   button {
-    margin-left: 15px;
+    margin-left: 17px;
   }
 
   @media (min-width: 1000px) {
-    transition: 0.5s;
-
-    :hover {
-      transform: scale(1.05);
-    }
-
     button:hover {
       background-color: var(--brand-hover);
     }

@@ -6,7 +6,7 @@ export const InputStyles = styled.div`
   display: flex;
 
   input {
-    width: 29rem;
+    width: 28rem;
     max-width: 100%;
     height: 3.75rem;
     padding-left: 10px;
@@ -24,21 +24,21 @@ export const InputStyles = styled.div`
 
   button {
     position: absolute;
-    top: 13px;
-    right: 10px;
+    top: 14px;
+    right: 11px;
   }
 
   @media (min-width: 700px) {
-    width: 36%;
+    width: 37%;
     div {
-      max-width: 80%;
+      max-width: 82%;
       position: relative;
       display: flex;
 
       input {
-        width: 18rem;
+        width: 19rem;
         max-width: 100%;
-        height: 3.75rem;
+        height: 3.78rem;
         padding-left: 10px;
 
         background-color: rgba(255, 255, 255, 1);
@@ -51,11 +51,11 @@ export const InputStyles = styled.div`
 
       button {
         position: absolute;
-        top: 13px;
-        right: 10px;
+        top: 14px;
+        right: 11px;
 
-        width: 15%;
-        height: 2.5rem;
+        width: 17%;
+        height: 2.8rem;
 
         background-color: var(--brand-color);
         color: rgba(255, 255, 255, 1);
